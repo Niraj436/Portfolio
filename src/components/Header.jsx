@@ -31,15 +31,17 @@ const Header = () => {
 					<h1>NIRAJ KHADKA</h1>
 				</div>
 			</Link>
-			<div className='md:opacity-0 opacity-100 flex float-end absolute right-0 md:pt-0 pt-4'>
-				<MdMenu
-					onClick={menuOpen}
-					className={`text-4xl ${!open ? `opacity-100` : `opacity-0`}`}
-				/>
-				<RxCrossCircled
-					onClick={menuOpen}
-					className={`text-4xl ${open ? `opacity-100` : `opacity-0`}`}
-				/>
+			<div
+				className={`md:opacity-0 opacity-100  absolute right-2 md:pt-0 pt-4 text-4xl ${
+					!open ? `block` : `hidden`
+				}`}>
+				<MdMenu onClick={menuOpen} />
+			</div>
+			<div
+				className={`md:opacity-0 opacity-100  absolute right-2 md:pt-0 pt-4 text-4xl ${
+					open ? `block-100` : `hidden`
+				}`}>
+				<RxCrossCircled onClick={menuOpen} />
 			</div>
 
 			<div className='p-2'>
