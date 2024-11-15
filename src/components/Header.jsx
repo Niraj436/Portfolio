@@ -31,7 +31,7 @@ const Header = () => {
 					<h1>NIRAJ KHADKA</h1>
 				</div>
 			</Link>
-			<div className='md:opacity-0 opacity-100 flex float-end absolute right-3 md:pt-0 pt-4'>
+			<div className='md:opacity-0 opacity-100 flex float-end absolute right-0 md:pt-0 pt-4'>
 				<MdMenu
 					onClick={menuOpen}
 					className={`text-4xl ${!open ? `opacity-100` : `opacity-0`}`}

@@ -4,10 +4,10 @@ import { FaTwitter, FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
-		<div className='bg-black py-16'>
+		<div className='bg-black py-16 text-white'>
 			<div className='grid md:grid-cols-2 grid-cols-1 sm:px-24 px-4 gap-x-28 gap-y-4'>
 				<div className='flex flex-col gap-y-3'>
-					<h1 className='font-bold text-2xl text-white'>NIRAJ KHADKA</h1>
+					<h1 className='font-bold text-2xl '>NIRAJ KHADKA</h1>
 					<p className='text-sm'>
 						A Full Stack Web Developer building both the frontend and backend of
 						websites and web applications, ensuring a seamless user experience
@@ -16,7 +16,7 @@ const Footer = () => {
 				</div>
 				<div>
 					<div className='flex flex-col gap-y-3'>
-						<h1 className='text-2xl text-white font-bold'>Social</h1>
+						<h1 className='text-2xl  font-bold'>Social</h1>
 						<div className='flex text-2xl items-center gap-x-4'>
 							<Link
 								href={'https://x.com/nee_eeeraj'}
