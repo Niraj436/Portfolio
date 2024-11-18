@@ -2,6 +2,18 @@
 import Link from 'next/link';
 import React from 'react';
 import { motion } from 'framer-motion';
+import {
+	FaHtml5,
+	FaCss3Alt,
+	FaGitAlt,
+	FaGithub,
+	FaReact,
+	FaNodeJs,
+} from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { SiTypescript, SiMongodb, SiExpress } from 'react-icons/si';
+import { RiNextjsFill } from 'react-icons/ri';
+import { BiLogoPostgresql } from 'react-icons/bi';
 
 const Aboutme = () => {
 	return (
@@ -71,18 +83,67 @@ const Aboutme = () => {
 				<div className='flex flex-col gap-y-6'>
 					<h1 className='text-2xl font-black text-slate-900'>My Skills</h1>
 					<div className='grid lg:grid-cols-4 grid-cols-2 gap-2'>
-						<span className='skill'>Html</span>
-						<span className='skill'>Css</span>
-						<span className='skill'>Javascript</span>
-						<span className='skill'>TypeScript</span>
-						<span className='skill'>Git</span>
-						<span className='skill'>Github</span>
-						<span className='skill'>React</span>
-						<span className='skill'>NextJs</span>
-						<span className='skill'>Node</span>
-						<span className='skill'>Express</span>
-						<span className='skill'>MongoDb</span>
-						<span className='skill'>Postgresql</span>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<FaHtml5 className='text-orange-600 text-xl' />
+							<span>Html</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<FaCss3Alt className='text-blue-600 text-xl' />
+							<span>Css</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<IoLogoJavascript className='text-yellow-500 text-xl' />
+							<span>Javascript</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<SiTypescript className='text-blue-600 text-xl' />
+							<span>Typescript</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<FaGitAlt className='text-orange-600 text-xl' />
+							<span>Git</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<FaGithub className=' text-xl' />
+							<span>Github</span>
+						</div>
+
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<FaReact className='text-blue-600 text-xl' />
+							<span>React</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<RiNextjsFill className='text-slate-700 text-xl' />
+							<span>NextJs</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<FaNodeJs className='text-green-600 text-xl' />
+							<span>NodeJs</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<SiExpress className='text-slate-700 text-xl' />
+							<span>ExpressJs</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<SiMongodb className='text-green-600 text-xl' />
+							<span>MongoDb</span>
+						</div>
+						<div className='skill flex items-center gap-x-1'>
+							{' '}
+							<BiLogoPostgresql className='text-blue-700 text-xl' />
+							<span>Postgresql</span>
+						</div>
 					</div>
 				</div>
 			</div>

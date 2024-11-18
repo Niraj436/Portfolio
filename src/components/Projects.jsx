@@ -26,14 +26,17 @@ const Projects = () => {
 			<div className='flex flex-col gap-y-28'>
 				{/* first project */}
 				<div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-y-28 lg:py-0 py-2'>
-					<div>
+					<motion.div
+						initial={{ y: 30, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						transition={{ duration: 2 }}>
 						<Image
 							className='rounded-lg'
 							src={'/shopify.png'}
 							alt={'sopify image'}
 							height={1000}
 							width={1000}></Image>
-					</div>
+					</motion.div>
 					<div className='px-12 flex flex-col gap-y-6 text-slate-600'>
 						<h1 className='text-center text-3xl font-black text-slate-900 pt-8'>
 							Shopify
@@ -52,14 +55,17 @@ const Projects = () => {
 					</div>
 				</div>
 				<div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-y-28 lg:py-0 py-2'>
-					<div>
+					<motion.div
+						initial={{ y: 30, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						transition={{ duration: 2 }}>
 						<Image
 							className='rounded-lg'
-							src={'/hotelbooking.png'}
+							src={'/hotel.png'}
 							alt={'sopify image'}
 							height={1000}
 							width={1000}></Image>
-					</div>
+					</motion.div>
 					<div className='px-12 flex flex-col gap-y-6 text-slate-600'>
 						<h1 className='text-center text-3xl font-black text-slate-900 pt-8'>
 							Hotel Booking
@@ -79,14 +85,17 @@ const Projects = () => {
 				</div>
 				{/* project 3*/}
 				<div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-y-28 lg:py-0 py-2'>
-					<div>
+					<motion.div
+						initial={{ y: 30, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						transition={{ duration: 2 }}>
 						<Image
 							className='rounded-lg'
 							src={'/chatapp.png'}
 							alt={'sopify image'}
 							height={1000}
 							width={1000}></Image>
-					</div>
+					</motion.div>
 					<div className='px-12 flex flex-col gap-y-6 text-slate-600'>
 						<h1 className='text-center text-3xl font-black text-slate-900 pt-8'>
 							ChatApp
@@ -105,14 +114,17 @@ const Projects = () => {
 				</div>
 				{/* project 4*/}
 				<div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-y-28 lg:py-0 py-2'>
-					<div>
+					<motion.div
+						initial={{ y: 30, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						transition={{ duration: 2 }}>
 						<Image
 							className='rounded-lg'
 							src={'/note.png'}
 							alt={'sopify image'}
 							height={1000}
 							width={1000}></Image>
-					</div>
+					</motion.div>
 					<div className='px-12 flex flex-col gap-y-6 text-slate-600'>
 						<h1 className='text-center text-3xl font-black text-slate-900 pt-8'>
 							Notes

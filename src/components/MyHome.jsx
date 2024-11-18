@@ -38,7 +38,7 @@ const MyHome = () => {
 				whileInView={{ y: 0, opacity: 1 }}
 				transition={{ duration: 1.5 }}
 				className='text-5xl text-slate-800 font-black'>
-				HEY I&apos;M NIRAJ KHADKA
+				HELLO I&apos;M NIRAJ KHADKA
 			</motion.div>
 			<div>
 				<div className='text-xl text-slate-800 text-center '>
